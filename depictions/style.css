@@ -1,54 +1,45 @@
-@font-face {
-  font-family: 'Font';
-  src: url('depictions/font/OpenType/SF-Pro-Display-Regular.otf') format('opentype');
-}
-
-* {
-  font-family: 'Font', sans-serif;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #343434;
-  color: white;
-}
-
-#video-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-#video-container video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#image-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 20px;
-  position: relative;
-  z-index: 0;
-}
-
-#image-container div {
-  margin: 20px;
-}
-
-#image-container img {
-  width: 120px;
-  height: 120px;
-}
-
-#image-container p {
-  margin: 10px 0;
-  font-size: 12px;
-  text-align: center;
-}
+    margin: 0;
+    padding: 0;
+    background-color: #343434;
+    color: white;
+  }
+  
+  #video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  #video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  #image-container div {
+    margin: 20px;
+  }
+  
+  #image-container img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  #image-container p {
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: center;
+  }
