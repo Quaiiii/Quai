@@ -19,6 +19,7 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
   
   #image-container {
     display: flex;
@@ -40,6 +41,7 @@ body {
   
   #image-container p {
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
   }
+
